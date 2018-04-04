@@ -1,0 +1,57 @@
+package com.example.sonumon.myapplication;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.TextureView;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    Button btnimplicite
+    Button btexplicite
+   
+
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        btnexplicite=findViewById(R.id. bteexplicite);
+        btn implic=findViewById(R.id.text1);
+       
+
+        btneplicite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+               intent intent=new intent(pakagecontext:mainactivity.this,secondactivity.calss);
+               start activity
+            }
+        });
+ btnexplicite.setOn
+
+
+intent intent=new intent(intent.Action_view,uri.parse("http.hthth.co.in"));
+startactivity(intent); 
+
+
+        }
+
+    }
+
+
+
+
+
+
+
